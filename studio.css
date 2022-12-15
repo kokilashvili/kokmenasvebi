@@ -1,0 +1,127 @@
+a{
+    color: blueviolet;
+    font-size: 40px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.body1{
+    background-color: aquamarine;
+}
+.body2{
+    background-color: white;
+}
+.body3{
+    background-color:white;
+}
+.welcomehomep{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    position: relative;
+   left: 520px;
+}
+.football1{
+    background-color: rgb(214, 208, 208);
+    width: 500px;
+    height: 340px;
+    position: relative;
+    justify-content: left;
+}
+.childfootball1{
+    background-color: white;
+}
+p{
+    font-family: 'Bebas Neue', cursive;
+}
+.grandchildfootball{
+    background-color: rgb(204, 212, 219);
+}
+.homer1{
+    font-size: 34px;
+
+}
+.animation1{
+    background-color:rgb(17, 133, 79);
+    width: 200px;
+    height: 50px;
+position: relative;
+left: 400px;
+top: -250px;
+animation: animation1 infinite alternate 2s;
+}
+@keyframes animation1{
+    0%{ transform: translateX(250px) ; background-color: white; }
+
+    100%{transform: translateX(400px);}
+}
+.score1{
+    width: 370px;
+    height: 100px;
+    background-color: lightcoral;
+    position: relative;
+    left: 540px;
+
+}
+.post{
+    position: relative;
+    left: 100px;
+}
+.ohio1{
+    position: relative;
+    top: -152px;
+}
+.Mbappe{
+    left: 550px;
+    position: absolute;
+ 
+}
+.goal1{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 150px;
+    top: 70px;
+    animation: goal 2s infinite;
+    
+}
+.goal2{
+    position: relative;
+    left: 800px;
+    top: 100px;
+}
+@keyframes goal {
+    0%{transform: translateX(0px); }
+    100%{
+        transform: translateX(650px) ;
+    }
+}
+.ronny{
+    top: 550px;
+    position: relative;
+    left: 0px;
+animation: ronny 4s alternate infinite;
+}
+.madrid{
+    top: 350px;
+    position: relative;
+    left: 1270px;
+}
+@keyframes ronny{
+    0% {transform: translateX(0px);}
+    50%{transform: translateX(1000px);}
+    60%{transform: translateX(800px);}
+    70%{transform: translateX(600px);}
+    80%{transform: translateX(400px);}
+    90%{transform: translateX(200px);}
+    100%{transform: translateX(0px);}
+}
+.ronaldotomadrid{
+    width: 800px;
+    height: 200px;
+    background-color: aquamarine;
+    position: relative;
+    top: 300px;
+    left: 600px;
+}
+.ohio{
+    font-size: 80px;
+}
